@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+*.obj
+*.res
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+
+# Visual Studio temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.doccallbacks.fwdarch
+*.vcproj.*.user
+
+# Project specific
+stdafx.h
+build.bat
+include/AL/
+
+# Large data files (optional, but usually good to keep if they are part of the sim)
+# If you want to keep raw files, comment out the line below
+# *.raw
